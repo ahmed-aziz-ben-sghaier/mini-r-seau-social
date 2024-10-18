@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "author": "John Doe",
+      "content": "This is a text post",
+      "image": "path_to_image.jpg",
+      "reactions": {
+        "likes": 10,
+        "dislikes": 2,
+        "loves": 5
+      },
+      "comments": [
+        {
+          "author": "Alice",
+          "content": "Great post!"
+        },
+        {
+          "author": "Bob",
+          "content": "Thanks for sharing!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "author": "Jane Doe",
+      "content": "Good Morning",
+      "image": null,
+      "reactions": {
+        "likes": 15,
+        "dislikes": 1,
+        "loves": 8
+      },
+      "comments": []
+    }
+  ]
+  

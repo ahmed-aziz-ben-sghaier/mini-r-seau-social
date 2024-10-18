@@ -1,0 +1,39 @@
+[
+    {
+      "conversationId": 1,
+      "sender": "Alice",
+      "profilePicture": "image/images.jpeg",
+      "lastMessage": "Hey, how are you?",
+      "messages": [
+        {
+          "message": "Hey, how are you?",
+          "timestamp": "2024-10-18T12:00:00",
+          "sender": "Alice"
+        },
+        {
+          "message": "I'm doing great, thanks!",
+          "timestamp": "2024-10-18T12:05:00",
+          "sender": "You"
+        }
+      ]
+    },
+    {
+      "conversationId": 2,
+      "sender": "Bob",
+      "profilePicture": "image/no-pic.jpeg",
+      "lastMessage": "Are you coming to the party?",
+      "messages": [
+        {
+          "message": "Are you coming to the party?",
+          "timestamp": "2024-10-17T08:30:00",
+          "sender": "Bob"
+        },
+        {
+          "message": "Yes, I'll be there!",
+          "timestamp": "2024-10-17T08:35:00",
+          "sender": "You"
+        }
+      ]
+    }
+  ]
+  

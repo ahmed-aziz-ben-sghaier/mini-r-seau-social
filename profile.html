@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile - Mini Réseau Social</title>
+  <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="messaging.html">Messaging</a></li>
+        <li><a href="friends.html">Friends</a></li>
+        <li><a href="#">Profil</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <h1>Your Profile</h1>
+      <div class="profile-info">
+        <div class="profile-picture">
+          <img src="image/no-pic.jpeg" alt="Photo de Profil"> 
+        </div>
+        <div class="profile-details">
+          <h2 id="username">John Doe</h2>
+          <p id="email">johndoe@example.com</p>
+          <p id="bio">Hello! I am a web developer and I love coding.</p>
+          <button id="editProfile">Modifier le Profil</button>
+        </div>
+      </div>
+      
+      <section class="friends-list">
+        <h2>Your Friends</h2>
+        <ul id="friends">
+          <li>Jane Smith</li>
+          <li>Bob Johnson</li>
+          <li>Emily Davis</li>
+        </ul>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Mini Réseau Social. Tous droits réservés.</p>
+  </footer>
+
+  <script src="js/profile.js"></script> 
+</body>
+</html>

@@ -1,0 +1,355 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f3;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .post {
+    background: #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
+  }
+  .post img {
+    width: 50%; 
+    max-width: 400px;
+    height: auto; 
+    border-radius: 8px; 
+}
+  
+  .reactions button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .reactions button:focus {
+    outline: none;
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+  
+  .conversation-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .message {
+    background: #e0e0e0;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
+  }
+  
+  .timestamp {
+    font-size: 0.8em;
+    color: #777;
+  }
+  #friends-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .friend-item {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    cursor: move;
+  }
+  
+  .friend-item:hover {
+    background: #ddd;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #2d9cdb;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+  }
+  
+  .hero .btn {
+    background-color: white;
+    color: #2d9cdb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+  }
+  
+  .feature-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-item h2 {
+    margin-top: 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #2d9cdb;;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .profile {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .profile-picture img {
+    border-radius: 50%;
+    width: 300px;
+    height: 100px;
+    border: 3px solid #2d9cdb;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-right: 40px;
+  }
+  
+  .profile-details {
+    flex-grow: 1;
+  }
+  
+  .profile-details h2 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .profile-details p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .friends-list {
+    margin-top: 20px;
+    text-align: center;
+
+
+  }
+  
+  .friends-list h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em; 
+    color: #2d9cdb;
+  }
+  
+  .friends-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  
+  .friends-list li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  .friends-list li:hover {
+    background: #e0e0e0; /* Couleur au survol */
+}
+  .feed {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    position: relative;
+  }
+  
+  .post img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .reactions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .comment-section {
+    margin-top: 10px;
+  }
+  
+  .comment {
+    padding: 5px;
+    border-top: 1px solid #e0e0e0;
+  }
+  @keyframes likeAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  
+  .reactions button {
+    transition: transform 0.2s ease;
+  }
+  
+  .reactions button:active {
+    animation: likeAnimation 0.5s forwards;
+  }
+  .comments {
+    margin-top: 10px;
+  }
+  
+  .comment-list p {
+    margin: 5px 0;
+  }
+  
+  .comment-input {
+    width: calc(100% - 100px);
+    padding: 5px;
+  }
+  
+  .comment-btn {
+    padding: 5px 10px;
+  }
+  
+    
+            

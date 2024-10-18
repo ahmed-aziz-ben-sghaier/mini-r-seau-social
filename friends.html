@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friends</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Friends List</h1>
+    <input type="text" id="search-bar" placeholder="Search friends..." />
+    <ul id="friends-list">
+      <li draggable="true" class="friend-item">
+        <a href="messaging.html?friend=alice" class="friend-link">
+          Alice Doe
+        </a>
+      </li>
+      <li draggable="true" class="friend-item">
+        <a href="messaging.html?friend=bob" class="friend-link">
+          Bob Smith
+        </a>
+      </li>
+      <li draggable="true" class="friend-item">
+        <a href="messaging.html?friend=charlie" class="friend-link">
+          Charlie Brown
+        </a>
+      </li>
+      <li draggable="true" class="friend-item">
+        <a href="messaging.html?friend=david" class="friend-link">
+          David Johnson
+        </a>
+      </li>
+    </ul>
+  </div>
+  <script src="js/friends.js"></script>
+</body>
+</html>
